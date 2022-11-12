@@ -44,7 +44,7 @@
   }
 
   a {
-    @apply font-bold underline text-hot-pink;
+    @apply font-bold underline;
 
     &:hover {
       @apply text-black;

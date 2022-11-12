@@ -1,13 +1,13 @@
 ---
-import BaseHead from "../components/Head/BaseHead.astro";
-import Nav from "../components/Nav.astro";
-import HomeHeader from "../components/HomeHeader.astro";
-import Card from "../components/Card.astro";
-import Footer from "../components/Footer/Footer.astro";
+import BaseHead from "@components/Head/BaseHead.astro";
+import Nav from "@components/Nav.astro";
+import HomeHeader from "@components/HomeHeader.astro";
+import Card from "@components/Card.astro";
+import ItchCard from "@components/ItchCard.astro";
+import Footer from "@components/Footer/Footer.astro";
 
-interface MarkdownFrontmatter {
-  date: number;
-}
+import { MarkdownFrontmatter, ItchGame } from "@scripts/types";
+import { log } from "astro/dist/core/logger/core";
 
 const title = "Mirth Peddlers";
 const description = "A Theme for Astro";
@@ -15,39 +15,75 @@ const seoDescription = "Creek is a theme for Astro static site generator";
 
 const allPosts = await Astro.glob<MarkdownFrontmatter>("./posts/*.md");
 const sortedPosts = allPosts.sort(
-  (a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf()
+	(a, b) =>
+		new Date(b.frontmatter.pubDate).valueOf() -
+		new Date(a.frontmatter.pubDate).valueOf()
 );
+
+let itchGames: ItchGame[];
+try {
+	const response = await fetch(
+		`https://itch.io/api/1/${import.meta.env.ITCH_API_KEY}/my-games`
+	);
+
+	const data = await response.json();
+
+	itchGames = data.games;
+} catch (error) {
+	console.log(error);
+}
 ---
 
 <html lang="en">
-  <head>
-    <BaseHead title={title} description={seoDescription} />
-  </head>
+	<head>
+		<BaseHead title={title} description={seoDescription} />
+	</head>
 
-  <body class="leading-normal text-black bg-white font-body personality-casual">
-    <Nav />
+	<body
+		class="leading-normal text-black bg-white font-body personality-casual"
+	>
+		<Nav />
 
-    <main class="py-12 lg:py-20">
-      <article class="max-w-6xl px-3 mx-auto">
-        <HomeHeader title={title} description={description} />
-        <section class="grid grid-cols-1 gap-6 py-8 md:grid-cols-2 lg:grid-cols-3" data-test="articles-section">
-          {
-            sortedPosts.map((p) => (
-              <div class="col-span-1">
-                <Card post={p} />
-              </div>
-            ))
-          }
-        </section>
-      </article>
-    </main>
+		<main class="py-12 lg:py-20">
+			<article class="max-w-6xl px-3 mx-auto">
+				<HomeHeader title={title} description={description} />
+				<section class="py-lg">
+					<h2
+						class="text-3xl font-bold font-display mb-base text-body"
+					>
+						Itch.io Games
+					</h2>
+					<ul class="grid grid-cols-4 gap-md">
+						{itchGames.map((game) => <ItchCard game={game} />)}
+					</ul>
+				</section>
+				<section data-test="articles-section">
+					<h2
+						class="text-3xl font-bold font-display mb-base text-body"
+					>
+						Blog
+					</h2>
+					<div
+						class="grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-3"
+					>
+						{
+							sortedPosts.map((p) => (
+								<div class="col-span-1">
+									<Card post={p} />
+								</div>
+							))
+						}
+					</div>
+				</section>
+			</article>
+		</main>
 
-    <section class="flex justify-center pt-8 space-x-8 text-xl font-bold">
-      <a href="/posts" class="mr-8" data-test="see-all-link">
-        See All<span class="squiggle">&rarr;</span>
-      </a>
-    </section>
+		<section class="flex justify-center pt-8 space-x-8 text-xl font-bold">
+			<a href="/posts" class="mr-8" data-test="see-all-link">
+				See All<span class="squiggle">&rarr;</span>
+			</a>
+		</section>
 
-    <Footer />
-  </body>
+		<Footer />
+	</body>
 </html>

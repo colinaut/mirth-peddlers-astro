@@ -1,12 +1,17 @@
 ---
 export interface Props {
-title: string;
-description: string;
+	title: string;
+	description: string;
 }
 const { title, description } = Astro.props;
 ---
 
-<header class="mx-auto max-w-xl text-center content">
-  <h1 class="mb-4" data-test="header-title">{title}</h1>
-  <p data-test="header-description">{description}</p>
+<header class="max-w-xl mx-auto text-center">
+	<h1 class="mb-4 h-60 font-display" data-test="header-title">
+		<img
+			src="/images/mirth-peddlers-logo@2x.png"
+			alt={title}
+			class="object-contain object-center w-full h-full"
+		/>
+	</h1>
 </header>
