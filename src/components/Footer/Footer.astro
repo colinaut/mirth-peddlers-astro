@@ -1,15 +1,18 @@
 ---
-import Squiggle from './Squiggle.astro'
-import Social from './Social.astro'
+import Squiggle from "./Squiggle.astro";
+import Social from "./Social.astro";
 ---
 
-<footer class="py-6 lg:py-12 text-center">
-  <div class="text-sm" data-test="footer-text">&copy;<script type="text/javascript"> document.write(new Date().getFullYear()); </script> Creek</div>
-  <Social />
+<footer class="py-6 text-center lg:py-12">
+	<div class="text-sm" data-test="footer-text">
+		&copy;<script type="text/javascript">
+			document.write(new Date().getFullYear());
+		</script> Mirth Peddlers
+	</div>
+	<Social />
 </footer>
 
 <Squiggle />
-
 
 <!-- Prism JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>

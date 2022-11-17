@@ -47,11 +47,27 @@ module.exports = {
 				"8xl": "6rem",
 				"9xl": "7rem",
 			},
-			typography: {
-				css: {
-					color: colors.stone[800],
+			typography: (theme) => ({
+				DEFAULT: {
+					css: {
+						color: colors.stone[800],
+						a: {
+							color: colors.pink[900],
+							"&:hover": {
+								color: colors.pink[500],
+							},
+						},
+						h1: {
+							fontFamily: 'superclarendon, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important',
+							fontWeight: 400,
+						},
+						h2: {
+							fontFamily: 'superclarendon, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important',
+							fontWeight: 400,
+						},
+					},
 				},
-			},
+			}),
 		},
 	},
 	plugins: [require("@tailwindcss/typography")],
