@@ -9,8 +9,8 @@ const { game } = Astro.props;
 const price = game.min_price / 100;
 ---
 
-<li
-	class="relative top-0 overflow-hidden transition-all duration-75 ease-in-out border-2 rounded-lg shadow-xl hover:-top-2 border-stone-200 hover:shadow-2xl bg-stone-50 hover:bg-amber-100 hover:rotate-6 group hover:border-amber-500"
+<div
+	class="relative top-0 overflow-hidden transition-all duration-75 ease-in-out border-2 rounded-lg shadow-lg hover:-top-2 border-stone-200 hover:shadow-xl bg-stone-50 hover:bg-amber-100 hover:rotate-6 group hover:border-amber-500"
 >
 	<a href={game.url} class="flex flex-col aspect-[5/7]">
 		<figure>
@@ -20,20 +20,16 @@ const price = game.min_price / 100;
 			<h3 class="font-bold mb-xs">{game.title}</h3>
 			<div class="">{game.short_text}</div>
 		</div>
-		<div
-			class="flex items-center text-xs border-t-2 grow-0 shrink bg-stone-100 border-stone-200 group-hover:bg-amber-200 group-hover:border-amber-500"
-		>
+		<div class="flex items-center text-xs border-t-2 grow-0 shrink bg-stone-100 border-stone-200 group-hover:bg-amber-200 group-hover:border-amber-500">
 			<div class="px-sm py-xs grow">
 				<strong>${price}</strong>
 				<em>or more</em>
 			</div>
-			<div
-				class="border-l-2 border-stone-200 px-sm py-xs group-hover:border-amber-500"
-			>
+			<div class="border-l-2 text-2xs border-stone-200 px-sm py-xs group-hover:border-amber-500">
 				<span class="">Downloaded by</span>
 				<strong>{game.downloads_count}</strong>
 				<span>folks!</span>
 			</div>
 		</div>
 	</a>
-</li>
+</div>
