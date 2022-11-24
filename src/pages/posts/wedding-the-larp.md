@@ -1,9 +1,9 @@
 ---
 title: "Wedding, the LARP"
 description: "Wedding, The LARP is a 16-80 person two hour freeform live action role play of a stereotypical American wedding — full of weird family dynamics, totally out of control flower children, absent minded ring bearer, mad libs vows, readings from random books, loud mouthed old friends, and exasperated caterers."
-pubDate: "2015-10-15"
+pubDate: "2015-01-15"
 hero: "/images/wedding-cards.jpg"
-tags: ["game"]
+tags: ["game","larp"]
 layout: "../../layouts/BlogPostLayout.astro"
 ---
 
@@ -11,7 +11,6 @@ layout: "../../layouts/BlogPostLayout.astro"
 Wedding, The LARP is a 16-80 person two hour freeform live action role play of a stereotypical American wedding — full of weird family dynamics, totally out of control flower children, absent minded ring bearer, mad libs vows, readings from random books, loud mouthed old friends, and exasperated caterers.
 
 All it takes to play is Wedding, the LARP is the deck of cards (80 character cards and two instruction cards), a few props, some refreshments, appetizers, and a host of friends who either wittingly or unwittingly are roped into your scheme. Game plays from the ceremony to the cake cutting after the reception in about two hours.
-
 
 ## How to get your own copy of Wedding, the LARP
 
