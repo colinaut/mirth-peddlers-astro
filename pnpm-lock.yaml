@@ -3,6 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/rss': ^1.0.2
   '@astrojs/sitemap': ^1.0.0
+  '@astropub/web-components': ^0.1.0
+  '@colinaut/theme-multi-switch': ^0.8.1
   '@tailwindcss/typography': ^0.5.8
   astro: ^1.5.0
   autoprefixer: ^10.4.12
@@ -19,6 +21,8 @@ specifiers:
 dependencies:
   '@astrojs/rss': 1.0.3
   '@astrojs/sitemap': 1.0.0
+  '@astropub/web-components': 0.1.0
+  '@colinaut/theme-multi-switch': 0.8.1
   autoprefixer: 10.4.13_postcss@8.4.19
   dayjs: 1.11.6
   lunr: 2.3.9
@@ -153,6 +157,10 @@ packages:
       global-agent: 3.0.0
       node-fetch: 3.3.0
     dev: true
+
+  /@astropub/web-components/0.1.0:
+    resolution: {integrity: sha512-HfPyK+xBMhegeC+JdB2nQxZ4p3E/wNr3exLt1CJIfwRaaYTkJLw8QkJdDqdzmEaAjeWcvSNGMzsfOF/rhucQ2A==}
+    dev: false
 
   /@babel/code-frame/7.18.6:
     resolution: {integrity: sha512-TDCmlK5eOvH+eH7cdAFlNXeVJqWIQ7gW9tY1GJIpUtFb6CmjVyq2VM3u71bOyR8CRihcCgMUYoDNyLXao3+70Q==}
@@ -382,6 +390,10 @@ packages:
       '@babel/helper-validator-identifier': 7.19.1
       to-fast-properties: 2.0.0
     dev: true
+
+  /@colinaut/theme-multi-switch/0.8.1:
+    resolution: {integrity: sha512-FKwMNPRE+hhUZ3Pbpc8mlVRo2DzYRY3RELWHocKI+N1nPGQ1oBZ3xbNK2ZcyHrtJyCE7UYiZCLgPiQT0Vm0lrg==}
+    dev: false
 
   /@emmetio/abbreviation/2.2.3:
     resolution: {integrity: sha512-87pltuCPt99aL+y9xS6GPZ+Wmmyhll2WXH73gG/xpGcQ84DRnptBsI2r0BeIQ0EB/SQTOe2ANPqFqj3Rj5FOGA==}

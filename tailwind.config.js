@@ -34,6 +34,8 @@ module.exports = {
 			},
 			colors: {
 				body: colors.stone[800],
+				highlight: colors.amber[600],
+				highlight2: colors.orange[500],
 			},
 			spacing: scale,
 			fontFamily: {
@@ -59,11 +61,11 @@ module.exports = {
 						},
 						h1: {
 							fontFamily: 'superclarendon, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important',
-							fontWeight: 400,
+							fontWeight: 700,
 						},
 						h2: {
 							fontFamily: 'superclarendon, ui-serif, Georgia, Cambria, "Times New Roman", Times, serif !important',
-							fontWeight: 400,
+							fontWeight: 700,
 						},
 					},
 				},

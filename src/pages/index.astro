@@ -33,23 +33,59 @@ try {
 		<BaseHead title={title} description={seoDescription} />
 	</head>
 
-	<body class="leading-normal text-black bg-white font-body personality-casual">
-		<header class="grid items-center grid-cols-2 px-lg pt-lg gap-lg">
+	<body class="">
+		<header class="grid items-center md:grid-cols-2 px-lg pt-lg gap-lg">
 			<div>
 				<h1 data-test="header-title">
 					<span class="sr-only">Mirth Peddlers</span>
 					<Logo />
 				</h1>
-				<div class="text-lg italic text-center border-t font-display py-sm mt-sm border-stone-400">Games, LARPs, and other mirthful shenanigans!</div>
+				<div class="text-lg italic text-center border-t font-display py-sm mt-sm border-stone-400">Games, LARPs, and mirthful shenanigans!</div>
 			</div>
 			<div>
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus ad, ullam minus nostrum nulla in quaerat magnam numquam commodi similique aperiam, dolorum
-				sit distinctio voluptate hic nemo! Repellat, modi.
+				<!-- <div class="flex justify-end"><theme-switch></theme-switch></div> -->
+				<div>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio temporibus ad, ullam minus nostrum nulla in quaerat magnam numquam commodi similique aperiam,
+					dolorum sit distinctio voluptate hic nemo! Repellat, modi.
+				</div>
 			</div>
 		</header>
 		<main class="py-lg">
+			<section data-test="articles-section">
+				<h2 class="text-3xl font-bold font-display px-lg">
+					<span>Mirth Blog</span>
+					<a
+						href="/posts"
+						class="inline-block text-lg transition-transform transform ml-base text-highlight hover:text-highlight2 hover:translate-x-1"
+						data-test="see-all-link"
+					>
+						See All<span class="squiggle">&rarr;</span>
+					</a>
+				</h2>
+				<div class="max-w-full overflow-x-auto p-lg">
+					<div class="flex gap-md w-fit">
+						{
+							sortedPosts.map((p) => (
+								<div class="col-span-1">
+									<Card post={p} />
+								</div>
+							))
+						}
+					</div>
+				</div>
+			</section>
+
 			<section class="py-lg">
-				<h2 class="text-3xl font-bold font-display text-body px-lg">Itch.io Games</h2>
+				<h2 class="text-3xl font-bold font-display px-lg">
+					<span>Itch.io Games</span>
+					<a
+						href="https://colinaut.itch.io"
+						class="inline-block text-lg transition-transform transform ml-base text-highlight hover:text-highlight2 hover:translate-x-1"
+						data-test="see-all-link"
+					>
+						See All<span class="squiggle">&rarr;</span>
+					</a>
+				</h2>
 				<div class="max-w-full overflow-x-auto p-lg">
 					<ul class="flex gap-md w-fit">
 						{
@@ -62,26 +98,7 @@ try {
 					</ul>
 				</div>
 			</section>
-
-			<section data-test="articles-section" class="px-lg">
-				<h2 class="text-3xl font-bold font-display mb-base text-body">Blog</h2>
-				<div class="grid grid-cols-1 gap-md md:grid-cols-2 lg:grid-cols-3">
-					{
-						sortedPosts.map((p) => (
-							<div class="col-span-1">
-								<Card post={p} />
-							</div>
-						))
-					}
-				</div>
-			</section>
 		</main>
-
-		<section class="flex justify-center pt-8 space-x-8 text-xl font-bold">
-			<a href="/posts" class="mr-8" data-test="see-all-link">
-				See All<span class="squiggle">&rarr;</span>
-			</a>
-		</section>
 
 		<Footer />
 	</body>

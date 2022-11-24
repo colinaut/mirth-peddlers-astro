@@ -2,15 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-	/* ----------------------- Fluid-Responsive Font-Size ----------------------- */
+@layer base {
+	:root {
+		/* ----------------------- Fluid-Responsive Font-Size ----------------------- */
 
-	/* Minimum Font Size is 1rem (16px, at 320px screen) and max is 1.25rem (20px at 1140px screen)  */
-	/* Uses Utopia Calculator https://utopia.fyi/type/calculator?c=320,16,1.25,1140,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
+		/* Minimum Font Size is 1rem (16px, at 320px screen) and max is 1.25rem (20px at 1140px screen)  */
+		/* Uses Utopia Calculator https://utopia.fyi/type/calculator?c=320,16,1.25,1140,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l */
 
-	font-size: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
-	/* Safari Resize fix */
-	min-height: 0vw;
+		font-size: clamp(1rem, 0.9rem + 0.49vw, 1.25rem);
+		/* Safari Resize fix */
+		min-height: 0vw;
+	}
+
+	svg path {
+		fill: currentColor;
+	}
+
+	body {
+		@apply leading-normal bg-white text-body;
+	}
 }
 
 @layer utilities {
