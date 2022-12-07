@@ -11,11 +11,11 @@ I'm relaunching Mirth Peddlers with a new logo and new design! With the collapse
 
 As such it is an excellent time to rebuild this game design site and commit to blogging again. Especially as I have new stuff in the works for my [colinaut.itch.io](https://colinaut.itch.io/) — including a couple of one-page games and some adventure scenarios for Electric Bastionland and Lacuna. Look for those to be added soon!
 
+This site is still a work in progress but all the pieces parts are in place and I've had fun building it using [Astro](https://astro.build).
+
 Ways you can follow me now that I'm no longer on the bird site:
 
 * Bookmark the [Mirth Peddlers Blog](/posts)
 * Sign up for the [Mirth Peddlers Newsletter](http://eepurl.com/ifz4nz)
 * Follow me on Itch.io: [colinaut.itch.io](https://colinaut.itch.io/)
 * Follow me on Mastodon [@colinaut@dice.camp](https://dice.camp/@colinaut)
-
-_btw this site is built using [Astro](https://astro.build) with [Tailwind css](https://tailwindcss.com) and hosted on [Netlify](https://www.netlify.com)._
