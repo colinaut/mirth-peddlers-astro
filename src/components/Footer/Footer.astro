@@ -1,10 +1,12 @@
 ---
 import Squiggle from "./Squiggle.astro";
 import Social from "./Social.astro";
+import EmailSignup from "@components/Subscribe/EmailSignup.astro";
 ---
 
-<footer class="py-6 text-center lg:py-12">
-	<div class="text-sm" data-test="footer-text">
+<footer class="text-center py-base">
+	<EmailSignup />
+	<div class="text-sm pt-lg" data-test="footer-text">
 		&copy;<script type="text/javascript">
 			document.write(new Date().getFullYear());
 		</script> Mirth Peddlers

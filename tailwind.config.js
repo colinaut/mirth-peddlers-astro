@@ -54,9 +54,9 @@ module.exports = {
 					css: {
 						color: colors.stone[800],
 						a: {
-							color: colors.pink[900],
+							color: colors.amber[600],
 							"&:hover": {
-								color: colors.pink[500],
+								color: colors.orange[500],
 							},
 						},
 						h1: {
