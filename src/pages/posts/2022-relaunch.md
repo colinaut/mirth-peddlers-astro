@@ -15,7 +15,10 @@ This site is still a work in progress but all the pieces parts are in place and 
 
 Ways you can follow me now that I'm no longer on the bird site:
 
-* Bookmark the [Mirth Peddlers Blog](/posts)
+* Bookmark the [Mirth Blog](/posts)
+* Follow the Mirth Blog using an rss reader*: [RSS feed](https://www.mirthpeddlers.com/rss.xml)
 * Sign up for the [Mirth Peddlers Newsletter](http://eepurl.com/ifz4nz)
 * Follow me on Itch.io: [colinaut.itch.io](https://colinaut.itch.io/)
 * Follow me on Mastodon [@colinaut@dice.camp](https://dice.camp/@colinaut)
+
+_* personally I like using [Feedly](https://feedly.com) for rss_
