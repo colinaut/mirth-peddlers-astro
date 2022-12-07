@@ -17,3 +17,5 @@ Ways you can follow me now that I'm no longer on the bird site:
 * Sign up for the [Mirth Peddlers Newsletter](http://eepurl.com/ifz4nz)
 * Follow me on Itch.io: [colinaut.itch.io](https://colinaut.itch.io/)
 * Follow me on Mastodon [@colinaut@dice.camp](https://dice.camp/@colinaut)
+
+_btw this site is built using [Astro](https://astro.build) with [Tailwind css](https://tailwindcss.com) and hosted on [Netlify](https://www.netlify.com)._
