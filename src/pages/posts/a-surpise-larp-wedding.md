@@ -1,13 +1,16 @@
 ---
-title: "A Surprise LARP Wedding"
-pubDate: "2014-12-18"
-description: "How to compare dates in JavaScript natively using the Date Object, without using any third-party libraries."
-hero: "/images/wedding-photo.jpg"
-tags: ["event"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: A Surprise LARP Wedding
+pubDate: 2014-12-18
+description: We got married in a surprise larp wedding!
+hero: /images/wedding-photo.jpg
+tags:
+  - event
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: My partner and I walking down the aisle arm in arm carrying a paper flower
+  bouquet
 ---
 
-So Colin Fahrion and I got married this Saturday in a SURPRISE LARP wedding. No one knew what was happening. We went as far as to register our friend as a minister in the Universal Life Church! It was incredible. I’ve never been one who dreams of weddings, but by doing something so silly I ended up with my dream wedding!
+So we got married this Saturday in a SURPRISE LARP wedding. No one knew what was happening. We went as far as to register our friend as a minister in the Universal Life Church! It was incredible. I’ve never been one who dreams of weddings, but by doing something so silly I ended up with my dream wedding!
 
 We had weird family dynamics, totally out of control flower children, mad libs vows, readings from random books (including a section of Skinny Legs and All which starts, “JEZEBEL”) and last but not least the ring bearer took off his pants… It was basically a giant ridiculous shit show! I was so nervous beforehand that things would go wrong, I was almost in tears! As soon as we started walking down the aisle and I saw everyone jumping and cheering in a cloud of bubbles and paper flower petals I started smiling and laughed the entire ceremony.
 

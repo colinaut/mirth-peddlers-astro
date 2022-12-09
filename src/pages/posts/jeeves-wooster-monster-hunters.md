@@ -1,10 +1,15 @@
 ---
-title: "Jeeves & Wooster Monster Hunters"
-description: "Jeeves & Wooster Monster Hunters, playtest game"
-pubDate: "2015-03-15"
-hero: "/images/Jeeves-Wooster-Monster-Hunters-graphic-playtesting.jpeg"
-tags: ["game", "playtest", "rpg"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: Jeeves & Wooster Monster Hunters
+description: Jeeves & Wooster Monster Hunters, playtest game which the idea came to me one
+  night in a dream
+pubDate: 2015-03-15
+hero: /images/Jeeves-Wooster-Monster-Hunters-graphic-playtesting.jpeg
+tags:
+  - game
+  - playtest
+  - rpg
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: The Jeeves and Wooster title clip from the show with 'Monster Hunters' added
 ---
 
 The idea for _Jeeves & Wooster Monster Hunters_ came to me in a dream one night. As there was no system I felt I could run this in, I have created a game systems inspired by some of the simple coin flip mechanics of the game _[Clink](https://www.drivethrurpg.com/product/236659/Clink-RPG)_.

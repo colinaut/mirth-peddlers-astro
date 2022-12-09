@@ -1,10 +1,15 @@
 ---
-title: "THE RAVER AND THE BEAR"
-pubDate: "2015-05-02"
-description: "In this article, I am going to show you how to install & setup Go (Golang) on Mac and also setup/configure VS Code for writing Go (Golang) code."
-hero: "/images/The-Raver-and-the-Bear.png"
-tags: ["game","larp"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: THE RAVER AND THE BEAR
+pubDate: 2015-05-02
+description: I was inspired and made a micro rpg game for David Schirbun’s awesome 200 Word
+  RPG challenge called THE RAVER AND THE BEAR!
+hero: /images/The-Raver-and-the-Bear.png
+heroAlt: Angry bear and two records, one with Wub Wub Wub an the other with Boots N'
+  Cats
+tags:
+  - game
+  - larp
+layout: ../../layouts/BlogPostLayout.astro
 ---
 
 I was inspired and made a micro rpg game for David Schirbun’s awesome [#200WordRPG challenge](https://schirduans.com/david/2015/04/200-word-rpg-challenge.html) called THE RAVER AND THE BEAR! You should check out the 200 Word RPG Challenge site as there are some amazing entries. I especially love LoveInt and Holding On and KillByNumbers but I’ve honestly barely scratched the surface of all the entries.

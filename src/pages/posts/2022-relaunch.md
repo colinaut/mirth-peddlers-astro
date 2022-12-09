@@ -1,10 +1,13 @@
 ---
-title: "2022 Site Relaunch"
-pubDate: "2022-12-06"
-description: "Relaunching Mirth Peddlers with a new log and new site!"
-hero: "/images/mirth-peddlers-logo-mark.png"
-tags: ["game design"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: 2022 Site Relaunch
+pubDate: 2022-12-06
+description: Relaunching Mirth Peddlers with a new logo and new site!
+hero: /images/mirth-peddlers-logo-mark.png
+tags:
+  - game design
+layout: ../../layouts/BlogPostLayout.astro
+slug: 2022-site-relaunch
+heroAlt: Mirth Peddlers logo of a bunny pulling a cart containing dice and swords
 ---
 
 I'm relaunching Mirth Peddlers with a new logo and new design! With the collapse of integrity for a certain social media site, now is the time to return to good old days of owning one's own content.

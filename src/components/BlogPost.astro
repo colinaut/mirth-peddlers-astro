@@ -5,10 +5,11 @@ export interface Props {
 	title: string;
 	date: string;
 	hero: string;
+	heroAlt: string;
 	youtube: string;
 }
 
-const { title, date, hero, youtube } = Astro.props;
+const { title, date, hero, heroAlt = "", youtube } = Astro.props;
 ---
 
 <article class="max-w-5xl px-3 mx-auto">
@@ -17,7 +18,7 @@ const { title, date, hero, youtube } = Astro.props;
 	</header>
 
 	<!-- Image -->
-	{hero && <img class="mx-auto rounded-xl" style="min-width: 80%;" loading="lazy" src={hero} alt={title} />}
+	{hero && <img class="mx-auto rounded-xl" style="min-width: 80%;" loading="lazy" src={hero} alt={heroAlt} />}
 
 	<!-- YouTube Video -->
 	{

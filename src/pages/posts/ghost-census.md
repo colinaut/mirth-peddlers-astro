@@ -1,10 +1,14 @@
 ---
-title: "Ghost Census"
-pubDate: "2019-10-16"
-description: "A business card game fo tracking the ghost!"
-hero: "/images/ghost-census.png"
-tags: ["game","larp"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: Ghost Census
+pubDate: 2019-10-16
+description: A business card game for tracking the ghost!
+hero: /images/ghost-census.png
+tags:
+  - game
+  - larp
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: U.S. Department of Supernatural Bureau of The Census governmental seal with a
+  ghost in a thunderstorm
 ---
 I created Ghost Census as a business card sized game to be passed out at [Big Bad Con](https://bigbadcon.com/) 2019. It was a hit little game and so I revised it as a print-in-play party game!
 

@@ -5,7 +5,7 @@ import BlogPost from "../components/BlogPost.astro";
 import Footer from "@components/Footer/Footer.astro";
 
 const { content } = Astro.props;
-const { title, description, date, hero, youtube } = content;
+const { title, description, date, hero, heroAlt, youtube } = content;
 ---
 
 <html lang={content.lang || "en"}>
@@ -16,7 +16,7 @@ const { title, description, date, hero, youtube } = content;
 	<body>
 		<Nav />
 		<main class="pt-lg">
-			<BlogPost title={title} hero={hero} date={date} youtube={youtube}>
+			<BlogPost title={title} hero={hero} heroAlt={heroAlt} date={date} youtube={youtube}>
 				<slot />
 			</BlogPost>
 		</main>

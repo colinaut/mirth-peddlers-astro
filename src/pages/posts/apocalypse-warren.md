@@ -1,10 +1,15 @@
 ---
-title: "Apocalypse Warren"
-pubDate: "2016-12-01"
-description: "A Warren world playset that brings the apocalypse back into The Warren! Bunnies in the apocalypse wasteland!"
-hero: "/images/Apocalypse-Warren-Graphic-wide.png"
-tags: ["game","rpg","supplement"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: Apocalypse Warren
+pubDate: 2016-12-01
+description: A Warren world playset that brings the apocalypse back into The Warren!
+  Bunnies in the apocalypse wasteland!
+hero: /images/Apocalypse-Warren-Graphic-wide.png
+tags:
+  - game
+  - rpg
+  - supplement
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: Apocalypse Warren graphic of a bunny silhouette, bullet holes, and tire tracks
 ---
 
 I present Apocalypse Warren, a world playset that brings the apocalypse back into [The Warren](https://bullypulpitgames.com/games/the-warren/)!

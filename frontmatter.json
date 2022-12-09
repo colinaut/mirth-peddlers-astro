@@ -1,0 +1,62 @@
+{
+	"$schema": "https://frontmatter.codes/frontmatter.schema.json",
+	"frontMatter.taxonomy.contentTypes": [
+		{
+			"name": "default",
+			"pageBundle": false,
+			"previewPath": "[[workspace]]/public",
+			"fields": [
+				{
+					"title": "title",
+					"name": "title",
+					"type": "string",
+					"single": true
+				},
+				{
+					"title": "pubDate",
+					"name": "pubDate",
+					"type": "datetime"
+				},
+				{
+					"title": "description",
+					"name": "description",
+					"type": "string"
+				},
+				{
+					"title": "hero",
+					"name": "hero",
+					"type": "image",
+					"isPreviewImage": true
+				},
+				{
+					"title": "heroAlt",
+					"name": "heroAlt",
+					"type": "string"
+				},
+				{
+					"title": "tags",
+					"name": "tags",
+					"type": "tags"
+				},
+				{
+					"title": "layout",
+					"name": "layout",
+					"type": "choice",
+					"choices": ["../../layouts/BlogPostLayout.astro"],
+					"default": "../../layouts/BlogPostLayout.astro"
+				}
+			]
+		}
+	],
+	"frontMatter.framework.id": "astro",
+	"frontMatter.content.pageFolders": [
+		{
+			"title": "posts",
+			"path": "[[workspace]]/src/pages/posts",
+			"filePrefix": ""
+		}
+	],
+	"frontMatter.content.publicFolder": "[[workspace]]/public",
+	"frontMatter.taxonomy.tags": ["event", "game", "game design", "larp", "playtest", "rpg", "supplement"],
+	"frontMatter.taxonomy.categories": []
+}

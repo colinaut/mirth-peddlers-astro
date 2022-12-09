@@ -1,10 +1,15 @@
 ---
-title: "Lacuna Dark"
-pubDate: "2017-04-23"
-description: "In this article, I am going to show you how to install & setup Go (Golang) on Mac and also setup/configure VS Code for writing Go (Golang) code."
-hero: "/images/lacuna-dark.png"
-tags: ["game","rpg","supplement"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: Lacuna Dark
+pubDate: 2017-04-23
+description: Lacuna Dark adapts the Cthulhu Dark rules for the sole purpose of enhancing
+  the personal otherworldly horror of Lacuna.
+hero: /images/lacuna-dark.png
+tags:
+  - game
+  - rpg
+  - supplement
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: Stark black and white image of a stairwell with a giant spider crawling across
 ---
 With the Kickstarter release of Graham Walmsley’s [Cthulhu Dark](https://www.kickstarter.com/projects/78929588/cthulhu-dark), I’ve finally gotten around to finalizing my Lacuna Dark game hack, for playing a more horror focused version of Jared Sorensen’s wondrous oddball game [Lacuna Part 1 – The Creation of the Mystery and the Girl from Blue City](https://www.memento-mori.com/rpg/lacuna-part-1-second-attempt)!
 

@@ -1,10 +1,12 @@
 ---
-title: "HeckaPoker"
-pubDate: "2017-04-23"
-description: "HeckaPoker, a game for use with the HeckaDeck!"
-hero: "/images/heckadeck.png"
-tags: ["game"]
-layout: "../../layouts/BlogPostLayout.astro"
+title: HeckaPoker
+pubDate: 2017-04-23
+description: HeckaPoker, a game for use with the HeckaDeck!
+hero: /images/heckadeck.png
+tags:
+  - game
+layout: ../../layouts/BlogPostLayout.astro
+heroAlt: Heckadeck image with playing cards from the Heckadeck
 ---
 
 Last year, I jumped on the Kickstarter for the [Heckadeck](https://moreliespub.myshopify.com/products/heckadeck) by [Travis Nichols](https://iamtravisnichols.com/). I was sold by the ridiculous of it all and the simple yet wonderful illustrations. I’ve broken them out a few times but never really got to play a full game with them until yesterday. Of course with all the weird cards — like Beasts, Zeros, The Crone, and Octogons — the first question is what the heck do you play with the Heckadeck? My answer to this is Heckapoker!
