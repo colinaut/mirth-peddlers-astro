@@ -40,7 +40,7 @@ My prep looks like this:
 * A list of secrets, clues, locations, and non-player characters
 * Potential complications and plot highlights, each tying together a location, secret, person, and a clue
 
-I typically list everything as bullet points but you could also use a mind map style flow chart or even create your own deck of cards to draw from.
+I typically list everything as bullet points but you could also use a mind map style flow chart or even create your own deck of cards to draw from. You can kick prep like this out in an hour or so. However, it also can also lend itself to more involved prep especially if you create pre-gen characters tangled up with the secrets and suspects. I had a lot of fun prepping my recent bank heist Lacuna game this way — using it as an excuse to watch some bank heist films for ideas.
 
 With my prep, everything is in superposition, clues can have multiple meanings, and branching paths lead in different directions. I allow myself the flexibility to use any of material as is, remix it, or discard it in favor of some new idea inspired by the players.
 
