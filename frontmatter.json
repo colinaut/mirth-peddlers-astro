@@ -4,7 +4,7 @@
 		{
 			"name": "default",
 			"pageBundle": false,
-			"previewPath": "[[workspace]]/public",
+			"previewPath": "/",
 			"fields": [
 				{
 					"title": "title",
