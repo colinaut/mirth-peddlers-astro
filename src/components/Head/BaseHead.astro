@@ -4,8 +4,11 @@ import "../../styles/styles.css";
 export interface Props {
 	title: string;
 	description: string;
+	og: string;
 }
-const { title, description } = Astro.props;
+const { title, description, og = "/images/social.jpg" } = Astro.props;
+
+const ogUrl = `https://www.mirthpeddlers.com${og}`;
 
 let permalink = "https://www.mirthpeddlers.com";
 ---
@@ -36,14 +39,14 @@ let permalink = "https://www.mirthpeddlers.com";
 <meta property="og:url" content={permalink} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content="https://www.mirthpeddlers.com/images/social.jpg" />
+<meta property="og:image" content={ogUrl} />
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image" />
 <meta property="twitter:url" content={permalink} />
 <meta property="twitter:title" content={title} />
 <meta property="twitter:description" content={description} />
-<meta property="twitter:image" content="https://www.mirthpeddlers.com/images/social.jpg" />
+<meta property="twitter:image" content={ogUrl} />
 
 <!-- Prism CSS -->
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css" />

@@ -10,7 +10,7 @@ const { title, description, date, hero, heroAlt, youtube } = content;
 
 <html lang={content.lang || "en"}>
 	<head>
-		<BaseHead title={title} description={description} />
+		<BaseHead title={title} description={description} og={hero} />
 	</head>
 
 	<body>

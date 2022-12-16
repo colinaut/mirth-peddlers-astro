@@ -1,6 +1,5 @@
 ---
 import BaseHead from "@components/Head/BaseHead.astro";
-import Nav from "@components/Nav.astro";
 import Logo from "@components/Logo.astro";
 import Card from "@components/Card.astro";
 import ItchCard from "@components/ItchCard.astro";
@@ -10,8 +9,7 @@ import { MarkdownFrontmatter, ItchGame } from "@scripts/types";
 import { log } from "astro/dist/core/logger/core";
 
 const title = "Mirth Peddlers";
-const description = "A Theme for Astro";
-const seoDescription = "Creek is a theme for Astro static site generator";
+const seoDescription = "Games, LARPs and mirthful shenanigans!";
 
 const allPosts = await Astro.glob<MarkdownFrontmatter>("./posts/*.md");
 const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
