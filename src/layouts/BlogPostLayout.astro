@@ -4,7 +4,7 @@ import BaseHead from "../components/Head/BaseHead.astro";
 import BlogPost from "../components/BlogPost.astro";
 import Footer from "@components/Footer/Footer.astro";
 
-const { content, page } = Astro.props;
+const { content, url } = Astro.props;
 const { title, description, pubDate, hero, heroAlt, tags } = content;
 
 // Ensure that is array
@@ -13,7 +13,7 @@ const tagsArray = Array.isArray(tags) ? tags : [];
 
 <html lang={content.lang || "en"}>
 	<head>
-		<BaseHead title={title} description={description} og={hero} />
+		<BaseHead title={title} description={description} og={hero} url={url} />
 	</head>
 
 	<body>
