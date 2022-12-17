@@ -9,6 +9,7 @@ tags:
   - game design
   - gming
 layout: ../../layouts/BlogPostLayout.astro
+heroAlt: "A dark room with a silhouette of a person behind an umbrella "
 ---
 
 Crafting a good mystery game is challenge. It's hard to find the right balance giving players narrative agency to drive the investigation, while also allowing for surprise "ah ha! It was the butler all along!" moments which are integral to a good mystery.
