@@ -6,6 +6,8 @@ export interface Props {
 }
 
 const { post } = Astro.props;
+
+const tags = Array.isArray(post.frontmatter.tags) ? post.frontmatter.tags : [];
 ---
 
 <a
@@ -23,7 +25,7 @@ const { post } = Astro.props;
 		</p>
 	</div>
 	<div class="flex text-xs gap-sm px-base py-sm">
-		{post.frontmatter.tags.sort((a, b) => a.localeCompare(b)).map((tag) => <span class="rounded-full bg-slate-200 pt-2xs pb-xs px-sm">{tag}</span>)}
+		{tags.sort((a, b) => a.localeCompare(b)).map((tag) => <span class="rounded-full bg-slate-200 pt-2xs pb-xs px-sm">{tag}</span>)}
 	</div>
 </a>
 

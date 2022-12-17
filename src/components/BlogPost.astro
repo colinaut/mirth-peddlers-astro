@@ -1,15 +1,15 @@
 ---
-import Footer from "./Footer/Footer.astro";
+import dayjs from "dayjs";
 
 export interface Props {
 	title: string;
-	date: string;
+	pubDate: string;
 	hero: string;
 	heroAlt: string;
-	youtube: string;
+	tags: string[];
 }
 
-const { title, date, hero, heroAlt = "", youtube } = Astro.props;
+const { title, pubDate, hero, heroAlt = "", tags } = Astro.props;
 ---
 
 <article class="max-w-5xl px-3 mx-auto">
@@ -20,25 +20,14 @@ const { title, date, hero, heroAlt = "", youtube } = Astro.props;
 	<!-- Image -->
 	{hero && <img class="mx-auto rounded-xl" style="min-width: 80%;" loading="lazy" src={hero} alt={heroAlt} />}
 
-	<!-- YouTube Video -->
-	{
-		youtube && (
-			<div class="mt-6 embed-responsive aspect-ratio-16/9 lg:mt-12">
-				<iframe
-					width="700"
-					height="500"
-					class="embed-responsive-item"
-					src={`https://www.youtube.com/embed/${youtube}`}
-					frameborder="0"
-					allow="accelerometer; autoplay; encrypted-media; gyroscope;"
-					allowfullscreen
-				/>
-			</div>
-		)
-	}
-
 	<!-- Content -->
 	<section class="py-6 mx-auto prose lg:py-lg">
+		<div class="flex items-center justify-between text-sm text-gray-600 border-gray-300 py-xs border-y gap-base">
+			<div>{dayjs(pubDate).format("MMM DD, YYYY")}</div>
+			<div class="flex text-xs gap-sm py-sm">
+				{tags.sort((a, b) => a.localeCompare(b)).map((tag) => <span class="rounded-full bg-slate-200 pt-2xs pb-xs px-sm">{tag}</span>)}
+			</div>
+		</div>
 		<slot />
 	</section>
 </article>
