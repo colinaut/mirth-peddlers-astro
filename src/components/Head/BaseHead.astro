@@ -6,19 +6,22 @@ export interface Props {
 	title: string;
 	description: string;
 	og?: string;
-	url?: string;
 }
 
-const { title, description, og = "/images/social.jpg", url = "/" } = Astro.props;
+const { title, description, og = "/images/social.jpg" } = Astro.props;
 
-const ogUrl = `https://www.mirthpeddlers.com${og}`;
+// remove last slash
+const domain = Astro.site.toString().slice(0, -1);
 
-const permalink = `https://www.mirthpeddlers.com${url}`;
+const ogUrl = `${domain}${og}`;
+
+const permalink = `${domain}${Astro.url.pathname}`;
 ---
 
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width" />
+<meta name="generator" content={Astro.generator} />
 <link rel="sitemap" href="/sitemap.xml" />
 <link rel="alternate" type="application/rss+xml" href="https://www.mirthpeddlers.com/rss.xml" />
 <link rel="canonical" href={permalink} />
