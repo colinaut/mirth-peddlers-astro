@@ -1,0 +1,52 @@
+---
+import { MarkdownFrontmatter } from "@scripts/types";
+const { default: arrowLeft } = await import("@assets/arrow-left.svg?raw");
+const { default: arrowRight } = await import("@assets/arrow-right.svg?raw");
+
+export interface Props {
+	currentUrl: string;
+}
+
+const { currentUrl } = Astro.props;
+
+const allPosts = await Astro.glob<MarkdownFrontmatter>("../pages/posts/*.md");
+const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
+
+console.log("🚀 ~ file: BlogPostLayout.astro:8 ~ posts", sortedPosts[0].url);
+
+console.log("Astro.props", currentUrl);
+
+const currentPostIndex = sortedPosts.findIndex((post) => post.url === currentUrl);
+console.log("🚀 ~ file: BlogPostLayout.astro:18 ~ currentPostIndex", currentPostIndex);
+
+const nextPost = currentPostIndex < sortedPosts.length ? sortedPosts[currentPostIndex + 1] : null;
+const prevPost = currentPostIndex > 0 ? sortedPosts[currentPostIndex - 1] : null;
+---
+
+<div class="mx-auto prose border-t-2 border-gray-300 squiggle"></div>
+<div class="flex flex-wrap justify-between mx-auto prose gap-x-base gap-y-sm py-base px-sm">
+	{
+		prevPost ? (
+			<a href={prevPost.url} class="flex items-center no-underline gap-sm">
+				<span class="w-10" aria-label="Next Post">
+					<Fragment set:html={arrowLeft} />
+				</span>
+				<span>{prevPost.frontmatter.title}</span>
+			</a>
+		) : (
+			<div />
+		)
+	}
+	{
+		nextPost ? (
+			<a href={nextPost.url} class="flex items-center no-underline gap-sm">
+				<span>{nextPost.frontmatter.title}</span>{" "}
+				<span class="w-10" aria-label="Previous Post">
+					<Fragment set:html={arrowRight} />
+				</span>
+			</a>
+		) : (
+			<div />
+		)
+	}
+</div>

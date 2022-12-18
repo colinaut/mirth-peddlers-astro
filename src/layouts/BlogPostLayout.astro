@@ -3,18 +3,10 @@ import Nav from "../components/Nav.astro";
 import BaseHead from "../components/Head/BaseHead.astro";
 import BlogPost from "../components/BlogPost.astro";
 import Footer from "@components/Footer/Footer.astro";
-import { MarkdownFrontmatter } from "@scripts/types";
+import NextPrevPost from "@components/NextPrevPost.astro";
 
-export async function getStaticPaths({ paginate }) {
-	const allPosts = await Astro.glob<MarkdownFrontmatter>("./*.md");
-	const sortedPosts = allPosts.sort((a, b) => new Date(b.frontmatter.pubDate).valueOf() - new Date(a.frontmatter.pubDate).valueOf());
+const { content, url } = Astro.props;
 
-	return paginate(sortedPosts, {
-		pageSize: 21,
-	});
-}
-
-const { content } = Astro.props;
 const { title, description, pubDate, hero, heroAlt, tags } = content;
 
 // Ensure that is array
@@ -32,6 +24,7 @@ const tagsArray = Array.isArray(tags) ? tags : [];
 			<BlogPost title={title} hero={hero} heroAlt={heroAlt} pubDate={pubDate} tags={tagsArray}>
 				<slot />
 			</BlogPost>
+			<NextPrevPost currentUrl={url} />
 		</main>
 		<Footer />
 	</body>
