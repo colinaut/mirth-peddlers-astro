@@ -1,6 +1,11 @@
 export interface MarkdownFrontmatter {
-	date: number;
+	title: string;
 	pubDate: string;
+	description: string;
+	hero: string;
+	heroAlt: string;
+	tags: string[];
+	layout: string;
 }
 
 interface Earning {
