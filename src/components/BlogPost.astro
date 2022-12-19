@@ -12,7 +12,7 @@ export interface Props {
 const { title, pubDate, hero, heroAlt = "", tags } = Astro.props;
 ---
 
-<article class="max-w-5xl px-3 mx-auto">
+<article class="max-w-5xl mx-auto px-sm">
 	<header class="max-w-3xl mx-auto prose text-center pb-lg">
 		<h1 class="font-display">{title}</h1>
 	</header>
@@ -21,7 +21,7 @@ const { title, pubDate, hero, heroAlt = "", tags } = Astro.props;
 	{hero && <img class="mx-auto rounded-xl" style="min-width: 80%;" loading="lazy" src={hero} alt={heroAlt} />}
 
 	<!-- Content -->
-	<section class="py-6 mx-auto prose lg:py-lg">
+	<section class="mx-auto prose py-md lg:py-lg">
 		<div class="flex items-center justify-between text-sm text-gray-600 border-gray-300 py-xs border-y gap-base">
 			<div>{dayjs(pubDate).format("MMM DD, YYYY")}</div>
 			<div class="flex text-xs gap-sm py-sm">
