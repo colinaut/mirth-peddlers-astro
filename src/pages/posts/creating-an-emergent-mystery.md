@@ -47,6 +47,10 @@ With my prep, everything is in superposition, clues can have multiple meanings, 
 
 Because the resulting story hinges so much on what the players bring to the table, I can run the same mystery with different players and it will result in a different ending every time.
 
+You can see an example of this style of emergent mystery game prep in my Lacuna Dark game [Back Job in Blue City](https://colinaut.itch.io/bank-job-in-blue-city) now on Itch.io!
+
+<iframe frameborder="0" src="https://itch.io/embed/1844048" width="552" height="167"><a href="https://colinaut.itch.io/bank-job-in-blue-city">Bank Job in Blue City by Colinaut</a></iframe>
+
 ## Credit were credit is due
 
 Much of this style is inspired by other low prep games like Apocalypse World and Blades in the Dark. The closest however is Agon. While I first outlined this style in my [Lacuna Dark](https://colinaut.itch.io/lacuna-dark) game back in 2017, seeing how Agon sets up islands has helped solidify my approach resulting in this blog post.

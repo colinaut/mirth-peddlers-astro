@@ -45,6 +45,10 @@ This worked pretty well. It was fun to watch players theatrically whip out their
 
 Whether you your closed or open secrets or a mixture of both its up to you. My main advice is to only used closed secrets when keeping it hidden will create a more interesting story. A closed secret should feel like it is bursting to be revealed!
 
+You can see an example of using mixed open and closed secrets in my Lacuna Dark game [Back Job in Blue City](https://colinaut.itch.io/bank-job-in-blue-city) now on Itch.io!
+
+<iframe frameborder="0" src="https://itch.io/embed/1844048" width="552" height="167"><a href="https://colinaut.itch.io/bank-job-in-blue-city">Bank Job in Blue City by Colinaut</a></iframe>
+
 ---
 
 *\* **Side note on AI art:** While I feel using AI imagery for creating personal use graphics for games is fine, I am against it for anything professionally published. If you plan on publishing, you should create your own, hire someone, or use stock or public domain.*
