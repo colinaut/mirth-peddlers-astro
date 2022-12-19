@@ -11,7 +11,7 @@ tags:
 layout: ../../layouts/BlogPostLayout.astro
 heroAlt: Stark black and white image of a stairwell with a giant spider crawling across
 ---
-With the Kickstarter release of Graham Walmsley’s [Cthulhu Dark](https://www.kickstarter.com/projects/78929588/cthulhu-dark), I’ve finally gotten around to finalizing my Lacuna Dark game hack, for playing a more horror focused version of Jared Sorensen’s wondrous oddball game [Lacuna Part 1 – The Creation of the Mystery and the Girl from Blue City](https://www.memento-mori.com/rpg/lacuna-part-1-second-attempt)!
+With the Kickstarter release of Graham Walmsley’s [Cthulhu Dark](https://www.kickstarter.com/projects/78929588/cthulhu-dark), I’ve finally gotten around to finalizing my Lacuna Dark game hack, for playing a more horror focused version of Jared Sorensen’s wondrous oddball game [Lacuna Part 1 – The Creation of the Mystery and the Girl from Blue City](http://www.memento-mori.com/pdf/lacuna-part-1-second-attempt)!
 
 Lacuna Dark adapts the Cthulhu Dark rules for the sole purpose of enhancing the personal otherworldly horror of Lacuna. While Blue City does have it’s monsters, with it’s Spidermen and Hostile Personalities, Lacuna Dark works best when focused on the surreal ominous nature of Blue City and it’s eerily banal imaginary inhabitants.
 
