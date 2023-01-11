@@ -9,13 +9,14 @@ export const get = async () => {
 		title: "Mirth Peddlers",
 		description: "Games, LARPs, and mirthful shenanigans!",
 		site: import.meta.env.SITE,
+        stylesheet: "/pretty-feed-v3.xsl"
 		items: posts.map((post) => {
 			return {
 				link: post.url,
 				title: post.frontmatter.title,
 				pubDate: post.frontmatter.pubDate,
 				description: post.frontmatter.description,
-				content: "hi hi hi",
+				content: sanitizeHtml(post.compiledContent()),
 			};
 		}),
 	});
