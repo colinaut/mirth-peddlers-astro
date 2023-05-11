@@ -1,5 +1,6 @@
 ---
 import dayjs from "dayjs";
+import { Image, Picture } from "@astrojs/image/components";
 
 export interface Props {
 	title: string;
@@ -18,7 +19,8 @@ const { title, pubDate, hero, heroAlt = "", tags } = Astro.props;
 	</header>
 
 	<!-- Image -->
-	{hero && <img class="mx-auto rounded-xl" style="min-width: 80%;" loading="lazy" src={hero} alt={heroAlt} />}
+
+	{hero && <Picture src={hero} alt={heroAlt} widths={[400, 800, 1600]} aspectRatio="5:3" formats={["jpeg", "webp"]} fit="cover" class="mx-auto rounded-xl" />}
 
 	<!-- Content -->
 	<section class="mx-auto prose py-md lg:py-lg">
