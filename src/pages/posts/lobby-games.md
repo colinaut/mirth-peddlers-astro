@@ -2,9 +2,10 @@
 title: Lobby Games
 pubDate: 2023-04-09T04:29:16.275Z
 description: ""
-hero: "/images/quest-peddlers.jpg"
-heroAlt: "Myself and fellow Quest Peddler handing out quest cards at Figment Boston, MA in 2013"
-tags: []
+hero: /images/quest-peddlers.jpg
+heroAlt: Myself and fellow Quest Peddler handing out quest cards at Figment Boston, MA in 2013
+tags:
+  - game design
 layout: ../../layouts/BlogPostLayout.astro
 ---
 
