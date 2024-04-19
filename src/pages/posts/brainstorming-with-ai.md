@@ -10,7 +10,7 @@ layout: ../../layouts/BlogPostLayout.astro
 type: default
 ---
 
-I recently listened to the Ezra Klein podcast "How Should I Be Using AI Right Now?", which was interesting in how they discussed how different the various AI models are. Now I have a lot of mixed feelings about AI in general. There are a lot of negatives: how it amplifies the enshitification of the information on the web, how it leads to devaluing of creative labor, and the bomb it is throwing into education. At the same time, I have definitely found it useful as a coding helper.
+I recently listened to the Ezra Klein podcast "[How Should I Be Using AI Right Now?](https://www.nytimes.com/2024/04/02/opinion/ezra-klein-podcast-ethan-mollick.html)", which was interesting in how they discussed how different the various AI models are. Now I have a lot of mixed feelings about AI in general. There are a lot of negatives: how it amplifies the enshitification of the information on the web, how it leads to devaluing of creative labor, and the bomb it is throwing into education. At the same time, I have definitely found it useful as a coding helper.
 
 I'm not going to go into all that though. Instead, I want to talk about using it as a brainstorming helper. Last night, we had our regular game of [Slugblaster](https://www.backerkit.com/c/projects/mythworks/slugblaster-kick-over-a-quantum-pizza-box-edition) hoverboarding dimension hopping teenagers — _highly recommend this game btw!_ I thought it would be an interesting experiment to try out different AI models for brainstorming session ideas.
 
