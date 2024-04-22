@@ -129,7 +129,7 @@ I went on and asked Claude 3 some more directed questions including some of the 
 
 ## Update
 
-My friend Myx [replied on Mastodon](https://dice.camp/@myx@sfba.social/112304657127483619) with the response from the Llama model. It interestingly sounds like it wants to play the game!
+My friend Myx [replied on Mastodon](https://dice.camp/@myx@sfba.social/112304657127483619) with the response from the Llama model. It interestingly starts out acting it wants to play the game. However, the bulk of the response is mostly a dry list like ChatGPT 4 though with a bit of the descriptive language of Gemini.
 
 ---
 
