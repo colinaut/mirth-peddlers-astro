@@ -12,7 +12,7 @@ type: default
 
 I recently listened to the Ezra Klein podcast "[How Should I Be Using AI Right Now?](https://www.nytimes.com/2024/04/02/opinion/ezra-klein-podcast-ethan-mollick.html)", which was interesting in how they discussed how different the various AI models are. Now I have a lot of mixed feelings about AI in general. There are a lot of negatives: how it amplifies the enshitification of the information on the web, how it leads to devaluing of creative labor, and the bomb it is throwing into education. At the same time, I have definitely found it useful as a coding helper.
 
-I'm not going to go into all that though. Instead, I want to talk about using it as a brainstorming helper. Last night, we had our regular game of [Slugblaster](https://www.backerkit.com/c/projects/mythworks/slugblaster-kick-over-a-quantum-pizza-box-edition) hoverboarding dimension hopping teenagers — _highly recommend this game btw!_ I thought it would be an interesting experiment to try out different AI models for brainstorming session ideas.
+I'm not going to go into all that though. Instead, I want to talk about using it as a brainstorming helper. Last night, we had our regular game of [Slugblaster](https://wilkies.itch.io/slugblaster) hoverboarding dimension hopping teenagers — _highly recommend this game btw!_ I thought it would be an interesting experiment to try out different AI models for brainstorming session ideas.
 
 Here is the question I asked:
 
@@ -124,6 +124,35 @@ _Well then! That is a departure! Claude 3 really went for it. Even though I did 
 Claude 3 served much better for brainstorm material — much like reading a book or watching a movie can spawn ideas for me. I didn't use it word for word but some ideas were good. The name "Principal Dourface" is perfect and I admit I did use that for my game. I also liked cheerleaders, so I added a cheerleading squad into the scene cheering for burritos — "Give me a B! Give me a U!".
 
 I went on and asked Claude 3 some more directed questions including some of the NPCs we have in the game. It responded in the same vein as above, with florid prose, adding in new story elements. I didn't end up using much of any of that but it helped get my brain in creative improv GM mode for the session. This is pretty par for the course though. Once a session gets started, "play to see what happens" takes over and any ideas I have are often either forced to mutate or left on the cutting room floor completely.
+
+---
+
+## Update
+
+My friend Myx [replied on Mastodon](https://dice.camp/@myx@sfba.social/112304657127483619) with the response from the Llama model. It interestingly sounds like it wants to play the game!
+
+---
+
+## Llama3-70B Response
+
+What a fantastic setup! I love the idea of a taco truck and a burrito portal showing up at the high school. Here's how I think the other teens, teachers, and principal might react:
+
+**Initial Confusion and Chaos**: When the taco truck emerges from the portal, surrounded by a flash of light and energy, everyone in the vicinity is shocked and stunned. Students are pouring out of the school, wondering what's happening, while teachers try to maintain order and usher them back inside.
+
+**Curiosity and Excitement**: As the initial shock wears off, curiosity gets the better of the students. They start gathering around the taco truck, marveling at its colorful decorations and the delicious aroma of sizzling meat and spices wafting from the kitchen. Some brave souls might even try to sneak a peek inside the portal, which is now burrito-sized and glowing softly.
+
+**Principal's Panic**: The principal, Mrs./Mr. [Last Name], rushes out of the school, flanked by a few trusted teachers, trying to regain control of the situation. They're worried about the safety implications of a mysterious portal and a taco truck appearing on school grounds. The principal might try to shut down the operation, citing concerns about food safety, trespassing, or even national security (depending on how paranoid they are).
+
+**Teacher Reactions**: Some teachers might be fascinated by the scientific implications of interdimensional travel and portals, while others will be more concerned with maintaining order and
+discipline. You might have a few "cool" teachers who are excited to see their students involved in something so extraordinary, but most will be trying to keep the situation from getting out of hand.
+
+**Student Reactions**: The teens will likely be thrilled by the sudden appearance of a taco truck, especially if they've heard rumors about the burrito portal. They'll start asking questions,
+taking selfies with the truck and the portal, and probably trying to negotiate with the Slugblasters (the hoverboarding teens) for free food or access to the portal.
+
+**Rumors and Speculation**: As news of the taco truck and portal spreads like wildfire through the school, rumors will start flying about what's happening. Some students might believe it's a prank gone wrong, while others will speculate about government experiments, alien technology, or even supernatural forces at play.
+
+How do you think the Slugblasters will react to all this attention? Will they try to keep their interdimensional adventures secret, or will they embrace their newfound fame and use it to their
+advantage?
 
 ---
 
